@@ -3,7 +3,7 @@ box: golang
 dev:
   steps:
     - setup-go-workspace:
-        package-dir: github.com/cloudnativego/hello
+        package-dir: github.com/birarvin/hello
 
     - script:
         name: env
@@ -67,5 +67,4 @@ deploy:
        port: "8080"
        tag: latest
        repository: abir2016/book-hello
-       registry: https://registry.hub.docker.com
        
